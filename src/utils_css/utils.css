@@ -1,0 +1,45 @@
+.flex {
+  display: flex;
+}
+.flex-columns {
+  flex-direction: column;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-75 {
+  width: 75%;
+}
+.width-100 {
+  width: 100%;
+}
+
+.border-type-c {
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.text-xs {
+  font-size: 12px;
+}
+
+.border {
+  border-radius: 8px;
+}
+
+.aligns-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.text-xl {
+  font-size: 25px;
+}
+.bold {
+  font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.header-img {
+  width: 100%;
+  margin: 0;
+  flex: 1;
+}
+.header-img img {
+  width: 100%;
+  display: block;
+  height: 600px;
+}
+.name-compañia {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  left: 10px;
+  top: 10px;
+}
