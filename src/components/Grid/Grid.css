@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, auto); */
+  grid-gap: 10px; /* Espacio entre las columnas y filas */
+  /* max-width: 1200px; Ancho máximo del contenedor */
+  margin: 0 auto; /* Centrar el contenedor en la pantalla */
+  width: 100%;
+  grid-auto-flow: dense;
+}
