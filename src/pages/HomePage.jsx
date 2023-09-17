@@ -6,8 +6,9 @@ import FeaturedChair from "../components/FeaturedChair/FeaturedChair";
 import Header from "../components/Header/Header";
 import HighlyExperiences from "../components/HighlyExperiences/HighlyExperiences";
 import SearchForm from "../components/SearchForm/SearchForm";
+import PropTypes from "prop-types";
 
-const HomePage = () => {
+const HomePage = ({ resultDataForm }) => {
   const linkAdventures = "/adventures";
   const linkAcommodations = "/accommodations";
   const linkExperiences = "/experiences";
@@ -15,7 +16,7 @@ const HomePage = () => {
   return (
     <>
       <Header>
-        <SearchForm />
+        <SearchForm dataForm={resultDataForm} />
       </Header>
       <ExplorerChair />
       <ChairPlus />
@@ -25,6 +26,10 @@ const HomePage = () => {
       <FeaturedChair link={linkFeatured} />
     </>
   );
+};
+
+HomePage.propTypes = {
+  resultDataForm: PropTypes.func,
 };
 
 export default HomePage;
