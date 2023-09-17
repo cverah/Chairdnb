@@ -1,0 +1,42 @@
+.form-header {
+  width: 391px;
+  padding: 30px;
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  background-color: white;
+  top: 20%; /* Puedes ajustar la posición vertical */
+  left: 8%; /* Puedes ajustar la posición horizontal */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-header p {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  line-height: 25.5px;
+}
+
+.form-header label {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form-header button {
+  background-color: #ff5a5f;
+  color: white;
+  border: 1px solid #ff5a5f;
+  border-radius: 8px;
+  padding: 8px 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form-header button:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
