@@ -1,0 +1,32 @@
+.chair-plus {
+  position: relative;
+  width: 100%;
+}
+
+.chair-plus-content-image {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  align-items: center;
+  color: white;
+}
+
+.chair-plus-content-image p {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.chair-plus-content-image button {
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid white;
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}

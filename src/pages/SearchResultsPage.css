@@ -1,0 +1,23 @@
+.search-result-back {
+  position: absolute;
+  left: 25px;
+  top: 70px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 8px 12px;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.search-result-back:hover {
+  text-decoration: underline;
+}
+.search-result-header {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}

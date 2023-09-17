@@ -1,0 +1,12 @@
+.feature-chair {
+  position: relative;
+}
+
+.feature-chair p {
+  position: absolute;
+  left: 40%;
+  top: 35%;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
