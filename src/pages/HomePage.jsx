@@ -8,7 +8,7 @@ import HighlyExperiences from "../components/HighlyExperiences/HighlyExperiences
 import SearchForm from "../components/SearchForm/SearchForm";
 import PropTypes from "prop-types";
 
-const HomePage = ({ resultDataForm }) => {
+const HomePage = ({ resultDataForm, getwhere }) => {
   const linkAdventures = "/adventures";
   const linkAcommodations = "/accommodations";
   const linkExperiences = "/experiences";
@@ -16,7 +16,7 @@ const HomePage = ({ resultDataForm }) => {
   return (
     <>
       <Header>
-        <SearchForm dataForm={resultDataForm} />
+        <SearchForm dataForm={resultDataForm} getwhere={getwhere} />
       </Header>
       <ExplorerChair />
       <ChairPlus />
@@ -30,6 +30,7 @@ const HomePage = ({ resultDataForm }) => {
 
 HomePage.propTypes = {
   resultDataForm: PropTypes.func,
+  getwhere: PropTypes.func,
 };
 
 export default HomePage;

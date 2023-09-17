@@ -4,7 +4,7 @@ import { useState } from "react";
 import getSearchForm from "../../services/search_form_services";
 import PropTypes from "prop-types";
 
-const SearchForm = ({ dataForm }) => {
+const SearchForm = ({ dataForm, getwhere }) => {
   // state where
   const [where, setWhere] = useState("");
   //state arrival
@@ -18,9 +18,10 @@ const SearchForm = ({ dataForm }) => {
     //manda a App.jsx los datos del formulario
 
     dataForm(data);
+    getwhere(where);
   };
   return (
-    <form className="form-header" onSubmit={submitForm}>
+    <form className="form-header border" onSubmit={submitForm}>
       <p>Book unioque accommodations to code as never before</p>
       <div className="flex flex-columns">
         <label htmlFor="where">WHERE</label>
@@ -60,6 +61,7 @@ const SearchForm = ({ dataForm }) => {
 
 SearchForm.propTypes = {
   dataForm: PropTypes.func,
+  getwhere: PropTypes.func,
 };
 
 export default SearchForm;
