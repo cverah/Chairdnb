@@ -1,3 +1,4 @@
+import Acomodation from "../components/Acomodation/Acomodation";
 import AdventuresChair from "../components/AdventuresChair/AdventuresChair";
 import ChairPlus from "../components/ChairPlus/ChairPlus";
 import ExplorerChair from "../components/ExplorerChair/ExplorerChair";
@@ -6,7 +7,7 @@ import SearchForm from "../components/SearchForm/SearchForm";
 
 const HomePage = () => {
   const linkAdventures = "/adventures";
-  // const linkAcommodations = "/accommodations";
+  const linkAcommodations = "/accommodations";
   // const linkExperiences = "/experiences";
   // const linkFeatured = "/featured";
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <ExplorerChair />
       <ChairPlus />
       <AdventuresChair link={linkAdventures} />
+      <Acomodation link={linkAcommodations} />
     </>
   );
 };

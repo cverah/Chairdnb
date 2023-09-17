@@ -1,0 +1,24 @@
+.accomodation-content {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.accomodation-content button {
+  font-size: 12px;
+  padding: 5px 3px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.accomodation-content p {
+  font-size: 13px;
+}
+
+.accomodation-rating {
+  font-weight: bold;
+  font-size: 10px;
+}
